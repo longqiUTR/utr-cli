@@ -1,0 +1,30 @@
+{
+  "name": "next-cli",
+  "version": "1.0.0",
+  "description": "这是一个一般牛批的脚手架",
+  "main": "index.js",
+  "files": [
+    "bin",
+    "lib",
+    "package.json"
+  ],
+  "bin": {
+    "next-cli": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "longqiUTR",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-shared-utils": "^5.0.8",
+    "commander": "^10.0.0",
+    "ejs": "^3.1.8",
+    "fs-extra": "^11.1.0",
+    "globby": "^11.0.2",
+    "inquirer": "^8.2.4",
+    "isbinaryfile": "^5.0.0",
+    "javascript-stringify": "^2.1.0"
+  }
+}
